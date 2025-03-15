@@ -1,6 +1,3 @@
-# FLeX
-Fourier-based Low-rank EXpansion for multilingual transfer in code generation
-
 # FLeX: Fourier-based Low-rank EXpansion for Multilingual Transfer
 
 This repository contains the implementation and experimental results for FLeX, a novel approach for enhancing cross-lingual code generation through frequency-domain regularization with Low-Rank Adaptation (LoRA).
