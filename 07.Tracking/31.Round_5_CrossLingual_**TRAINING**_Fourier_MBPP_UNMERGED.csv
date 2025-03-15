@@ -1,0 +1,11 @@
+timestamp,model_dir,base_model,lora_r,lora_alpha,lora_dropout,lora_bias,target_modules,num_epochs,batch_size,max_length,gradient_clip,learning_rate,optimizer,weight_decay,scheduler,dataset,training_time_minutes
+20250310192248,20250310_bph_alpha16_dropout0.05_r8_lr0.0002_fou0.01_epochs3,codellama/CodeLlama-7b-hf,8,16,0.05,none,"q_proj,v_proj",3,4,512,1.0,0.0002,adamw,0.01,cosine,mbpp,3.81
+20250310192943,20250310_wov_alpha16_dropout0.05_r8_lr0.0002_fou0.05_epochs3,codellama/CodeLlama-7b-hf,8,16,0.05,none,"q_proj,v_proj",3,4,512,1.0,0.0002,adamw,0.01,cosine,mbpp,3.79
+20250310193341,20250310_rpl_alpha16_dropout0.05_r8_lr0.0002_fou0.001_epochs3,codellama/CodeLlama-7b-hf,8,16,0.05,none,"q_proj,v_proj",3,4,512,1.0,0.0002,adamw,0.01,cosine,mbpp,3.78
+20250310193734,20250310_kfg_alpha16_dropout0.05_r8_lr0.0002_fou0.01_epochs3,codellama/CodeLlama-7b-hf,8,16,0.05,none,"q_proj,v_proj",3,4,512,1.0,0.0002,adamw,0.01,cosine,mbpp,3.78
+20250310194128,20250310_cbg_alpha16_dropout0.05_r8_lr0.0002_fou0.01_epochs3,codellama/CodeLlama-7b-hf,8,16,0.05,none,"q_proj,v_proj",3,4,512,1.0,0.0002,adamw,0.01,cosine,mbpp,3.78
+20250310194522,20250310_kjg_alpha16_dropout0.05_r8_lr0.0002_fou0.01_epochs3,codellama/CodeLlama-7b-hf,8,16,0.05,none,"q_proj,v_proj",3,4,512,1.0,0.0002,adamw,0.01,cosine,mbpp,3.78
+20250310194917,20250310_bch_alpha16_dropout0.05_r16_lr0.0002_fou0.01_epochs3,codellama/CodeLlama-7b-hf,16,16,0.05,none,"q_proj,k_proj,v_proj,o_proj,gate_proj,up_proj,down_proj",3,4,512,1.0,0.0002,adamw,0.01,cosine,mbpp,7.03
+20250310195626,20250310_hiv_alpha16_dropout0.05_r16_lr0.0002_fou0.03_epochs3,codellama/CodeLlama-7b-hf,16,16,0.05,none,"q_proj,v_proj",3,4,512,1.0,0.0002,adamw,0.01,cosine,mbpp,3.79
+20250310200021,20250310_gkm_alpha16_dropout0.05_r8_lr0.0002_fou0.02_epochs3,codellama/CodeLlama-7b-hf,8,16,0.05,none,"gate_proj,up_proj,down_proj",3,4,512,1.0,0.0002,adamw,0.01,cosine,mbpp,4.53
+20250310200503,20250310_wdq_alpha16_dropout0.05_r8_lr0.0002_fou0.02_epochs3,codellama/CodeLlama-7b-hf,8,16,0.05,none,"q_proj,v_proj",3,4,512,1.0,0.0002,adamw,0.01,cosine,mbpp,3.78

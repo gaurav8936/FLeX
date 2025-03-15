@@ -1,0 +1,12 @@
+timestamp,model_dir,base_model,lora_r,lora_alpha,lora_dropout,lora_bias,target_modules,num_epochs,batch_size,max_length,gradient_clip,learning_rate,optimizer,weight_decay,scheduler,dataset,training_time_minutes
+20250309185715,20250309_nvf_alpha16_dropout0.05_r4_lr0.0002_epochs3_merged,codellama/CodeLlama-7b-hf,4,16,0.05,none,"q_proj,v_proj",3,4,512,1.0,0.0002,adamw,0.01,cosine,mbpp,3.40
+20250309191013,20250309_nkr_alpha16_dropout0.05_r16_lr0.0002_epochs3_merged,codellama/CodeLlama-7b-hf,16,16,0.05,none,"q_proj,v_proj",3,4,512,1.0,0.0002,adamw,0.01,cosine,mbpp,3.40
+20250309191441,20250309_nkr_alpha8_dropout0.05_r8_lr0.0002_epochs3_merged,codellama/CodeLlama-7b-hf,8,8,0.05,none,"q_proj,v_proj",3,4,512,1.0,0.0002,adamw,0.01,cosine,mbpp,3.38
+20250309191906,20250309_nkr_alpha32_dropout0.05_r8_lr0.0002_epochs3_merged,codellama/CodeLlama-7b-hf,8,32,0.05,none,"q_proj,v_proj",3,4,512,1.0,0.0002,adamw,0.01,cosine,mbpp,3.39
+20250309192332,20250309_nkr_alpha16_dropout0.0_r8_lr0.0002_epochs3_merged,codellama/CodeLlama-7b-hf,8,16,0.0,none,"q_proj,v_proj",3,4,512,1.0,0.0002,adamw,0.01,cosine,mbpp,3.34
+20250309192755,20250309_nkr_alpha16_dropout0.1_r8_lr0.0002_epochs3_merged,codellama/CodeLlama-7b-hf,8,16,0.1,none,"q_proj,v_proj",3,4,512,1.0,0.0002,adamw,0.01,cosine,mbpp,3.38
+20250309193225,20250309_nkr_alpha16_dropout0.05_r8_lr0.0002_epochs3_merged,codellama/CodeLlama-7b-hf,8,16,0.05,none,"q_proj,k_proj,v_proj",3,4,512,1.0,0.0002,adamw,0.01,cosine,mbpp,3.61
+20250309193704,20250309_nkr_alpha16_dropout0.05_r8_lr0.0002_epochs3_merged,codellama/CodeLlama-7b-hf,8,16,0.05,none,"q_proj,k_proj,v_proj,o_proj",3,4,512,1.0,0.0002,adamw,0.01,cosine,mbpp,3.77
+20250309194208,20250309_nkr_alpha16_dropout0.05_r8_lr0.0001_epochs3_merged,codellama/CodeLlama-7b-hf,8,16,0.05,none,"q_proj,v_proj",3,4,512,1.0,0.0001,adamw,0.01,cosine,mbpp,3.40
+20250309194636,20250309_nkr_alpha16_dropout0.05_r8_lr0.0005_epochs3_merged,codellama/CodeLlama-7b-hf,8,16,0.05,none,"q_proj,v_proj",3,4,512,1.0,0.0005,adamw,0.01,cosine,mbpp,3.39
+20250309195102,20250309_nkr_alpha16_dropout0.05_r8_lr0.0002_epochs3_merged,codellama/CodeLlama-7b-hf,8,16,0.05,none,"q_proj,v_proj",3,4,512,1.0,0.0002,adam,0.01,cosine,mbpp,3.40

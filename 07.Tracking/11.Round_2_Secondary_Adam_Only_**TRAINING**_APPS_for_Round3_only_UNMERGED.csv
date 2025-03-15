@@ -1,0 +1,13 @@
+timestamp,model_dir,base_model,lora_r,lora_alpha,lora_dropout,lora_bias,target_modules,num_epochs,batch_size,max_length,gradient_clip,learning_rate,optimizer,weight_decay,scheduler,dataset,training_time_minutes,best_val_loss
+20250309025118,20250309_tie_MBPP2APPS_adamw_r8_lr0.0002_epochs3,codellama/CodeLlama-7b-hf,8,16,0.05,none,"q_proj,v_proj,down_proj,up_proj",3,4,512,1.0,0.0002,adamw,0.01,cosine,apps,7.18,1.139789
+20250309030952,20250309_udp_MBPP2APPS_adamw_r8_lr0.0002_epochs3,codellama/CodeLlama-7b-hf,8,16,0.05,none,"q_proj,v_proj,down_proj,up_proj",3,4,512,1.0,0.0002,adamw,0.01,cosine,apps,7.18,1.218667
+20250309031752,20250309_aja_MBPP2APPS_adamw_r8_lr0.0002_epochs3,codellama/CodeLlama-7b-hf,8,16,0.05,none,"q_proj,v_proj,down_proj,up_proj",3,4,512,1.0,0.0002,adamw,0.01,cosine,apps,7.22,1.144272
+20250309032547,20250309_xdb_MBPP2APPS_adamw_r8_lr0.0003_epochs3,codellama/CodeLlama-7b-hf,8,16,0.05,none,"q_proj,v_proj,down_proj,up_proj",3,4,512,1.0,0.0003,adamw,0.01,cosine,apps,7.20,1.197381
+20250309033341,20250309_xni_MBPP2APPS_adamw_r8_lr0.0001_epochs3,codellama/CodeLlama-7b-hf,8,16,0.05,none,"q_proj,v_proj,down_proj,up_proj",3,4,512,1.0,0.0001,adamw,0.01,cosine,apps,7.22,1.210081
+20250309034137,20250309_ubf_MBPP2APPS_adamw_r16_lr0.0002_epochs3,codellama/CodeLlama-7b-hf,16,16,0.05,none,"q_proj,v_proj,down_proj,up_proj",3,4,512,1.0,0.0002,adamw,0.01,cosine,apps,7.22,1.225143
+20250309034932,20250309_fvd_MBPP2APPS_adamw_r4_lr0.0002_epochs3,codellama/CodeLlama-7b-hf,4,16,0.05,none,"q_proj,v_proj,down_proj,up_proj",3,4,512,1.0,0.0002,adamw,0.01,cosine,apps,7.17,1.265802
+20250309035724,20250309_bvd_MBPP2APPS_adamw_r8_lr0.0002_epochs3,codellama/CodeLlama-7b-hf,8,32,0.05,none,"q_proj,v_proj,down_proj,up_proj",3,4,512,1.0,0.0002,adamw,0.01,cosine,apps,7.19,1.175549
+20250309040518,20250309_ibm_MBPP2APPS_adamw_r8_lr0.0002_epochs3,codellama/CodeLlama-7b-hf,8,8,0.05,none,"q_proj,v_proj,down_proj,up_proj",3,4,512,1.0,0.0002,adamw,0.01,cosine,apps,7.20,1.150119
+20250309041313,20250309_oro_MBPP2APPS_adamw_r8_lr0.0002_epochs3,codellama/CodeLlama-7b-hf,8,16,0.1,none,"q_proj,v_proj,down_proj,up_proj",3,4,512,1.0,0.0002,adamw,0.01,cosine,apps,7.18,1.140777
+20250309042106,20250309_bwm_MBPP2APPS_adamw_r8_lr0.0002_epochs3,codellama/CodeLlama-7b-hf,8,16,0.0,none,"q_proj,v_proj,down_proj,up_proj",3,4,512,1.0,0.0002,adamw,0.01,cosine,apps,6.97,1.223372
+20250309042846,20250309_rfd_MBPP2APPS_sophia_r8_lr0.0002_epochs3,codellama/CodeLlama-7b-hf,8,16,0.05,none,"q_proj,v_proj,down_proj,up_proj",3,4,512,1.0,0.0002,sophia,0.01,cosine,apps,7.50,1.113155
